@@ -1,8 +1,29 @@
 aid: octant
 name: Octant
-description: Octant is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Octant is a precision medicine company developing next-generation small
+  molecule therapeutics by merging biology, chemistry, and computation to
+  engineer drugs that target complex cellular mechanisms. Its programs span
+  protein misfolding and mistrafficking diseases, oncology, metabolism, and
+  immunology, with lead candidate OCT-980 — a first-in-disease oral small
+  molecule designed to correct protein misfolding for rhodopsin gene mutations
+  in autosomal dominant retinitis pigmentosa. Octant is a portfolio company of
+  8vc. It publishes no public developer API, developer portal, or technical
+  documentation; this profile is maintained in the API Evangelist network as a
+  company record.
 url: https://raw.githubusercontent.com/api-evangelist/octant/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68c42b39e889866140bb43e8/68c42b39e889866140bb4417_logo-nav.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Precision Medicine
+- Drug Discovery
+- Therapeutics
+- Life Sciences
+- Pharmaceuticals
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +49,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://octant.bio
+  url: https://www.octant.bio
+- type: Blog
+  url: https://www.octant.bio/blog
+- type: PrivacyPolicy
+  url: https://www.octant.bio/privacy-policy
+- type: DomainSecurity
+  url: security/octant-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
